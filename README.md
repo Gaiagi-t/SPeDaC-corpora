@@ -20,7 +20,7 @@ If you use the resource, please reference this work in your paper:
 
 To download the datasets you have to sign an agreement of ethical research purposes. You can find the agreement doc in this repository.
 
-Once the corresponding license agreement is signed, you have to send it to the authors at: gaia.gambarelli2@unibo.it.
+Once the corresponding license agreement is signed, you have to send it to the authors at: gaiagambarelli@gmail.com .
 
 Subject: [SPeDaC download]
 
