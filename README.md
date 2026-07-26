@@ -1,4 +1,7 @@
 # SPeDaC
+
+**SPeDaC** (Sensitive Personal Data Categories) is a multi-version corpus for sensitive personal data classification in online textual content. Grounded in GDPR-oriented definitions and the W3C Data Privacy Vocabulary Personal Data module (DPV-PD), the resource has been progressively developed across four versions to support evaluation at multiple levels of privacy granularity — from binary sensitivity detection to fine-grained, span-level annotation of personal data categories. The corpora are constructed from sentences extracted from the enTenTen2020 web corpus and annotated using the INCEpTION platform.
+
 The resource has been evaluated in: G. Gambarelli, A. Gangemi and R. Tripodi, "Is Your Model Sensitive? SPEDAC: A New Resource for the Automatic Classification of Sensitive Personal Data," in IEEE Access, vol. 11, pp. 10864-10880, 2023, doi: 10.1109/ACCESS.2023.3240089.
 
 If you use SPeDaC1 or SPeDaC2, please reference this work in your paper:
@@ -73,6 +76,6 @@ The annotations are sentence-level and in WebAnno TSV v3.3 format.
 
 SPeDaC3 and SPeDaC4 are evolutions of the resource, moving from binary and macro-category classification toward fine-grained annotation of personal data aligned with the W3C Data Privacy Vocabulary Personal Data module (DPV-PD, https://w3c.github.io/dpv/dpv-pd/).
 
-The third dataset (SPeDaC3) extends the annotation of the same corpus with 61 fine-grained personal data categories derived from DPV-PD. As in previous versions, the annotations remain sentence-level and in WebAnno TSV v3.3 format.
+The third dataset (SPeDaC3) extends the annotation of the same corpus with 61 fine-grained personal data categories derived from DPV-PD, including age, occupation, location, health conditions, mental health, family relations, political beliefs, preferences, financial status, and physical characteristics. As in previous versions, the annotations remain sentence-level and in WebAnno TSV v3.3 format.
 
 The fourth dataset (SPeDaC4) re-annotates the SPeDaC corpus at span-level, marking the exact text spans carrying sensitive personal data rather than labeling entire sentences. This shift from sentence classification to span extraction enables fine-grained extraction tasks that more accurately reflect the distribution of privacy-sensitive content within each textual unit. The category set has been enriched through a systematic alignment with DPV-PD version 2.2, which underwent significant structural changes between 2023 and 2024; the analysis identified one new category — Citizenship — not subsumed by existing SPeDaC labels, bringing the total to 62 fine-grained personal data categories. SPeDaC4 also introduces an Italian-language translation of the corpus, representing the first multilingual extension of SPeDaC. Annotation was completed in 2026 using the INCEpTION platform. The annotations are span-level and in WebAnno TSV v3.3 format.
