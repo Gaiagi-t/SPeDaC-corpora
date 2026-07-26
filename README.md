@@ -15,7 +15,19 @@ If you use SPeDaC1 or SPeDaC2, please reference this work in your paper:
   doi={10.1109/ACCESS.2023.3240089}}
 ```
 
-If you use SPeDaC3, please reference this work in your paper:
+If you use SPeDaC3, please reference both works in your paper:
+
+```
+@ARTICLE{10031607,
+  author={Gambarelli, Gaia and Gangemi, Aldo and Tripodi, Rocco},
+  journal={IEEE Access}, 
+  title={Is Your Model Sensitive? SPEDAC: A New Resource for the Automatic Classification of Sensitive Personal Data}, 
+  year={2023},
+  volume={11},
+  number={},
+  pages={10864-10880},
+  doi={10.1109/ACCESS.2023.3240089}}
+```
 
 ```
 @Article{bdcc6030090,
